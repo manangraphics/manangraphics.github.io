@@ -1,0 +1,153 @@
+
+		*{
+			padding:0;
+			margin: 0; 
+		}
+
+		.Main{
+			width: 100%;
+			height: 100%;
+			text-align: center;
+		}
+
+		.maincont{
+			width: 100%;
+			text-align: center;
+			display: flex;
+			flex-direction: column;
+			background-image: url(street2.jpg); 
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+
+		.cont{
+			
+		}
+
+		.cont:nth-child(1){
+			height: 430px;
+			display: flex;
+			flex-direction: column;
+			
+			text-align: center;
+			font-family: 'Century Gothic',sans-serif;
+		}
+
+		.cont:nth-child(1) .titles:first-child{
+			color: white;
+			font-size: 5em;
+			margin-top:120px;
+		}
+
+		.cont:nth-child(1) .titles:nth-child(2){
+			font-size: 1.8em;
+			color: white;
+			margin-top:10px;
+		}
+
+		.spans{
+			width: 50%;
+			height: 100px;
+			position: absolute;
+			left: 48%;
+			top: 37%;
+			display: inherit;
+			text-align: center;
+			border-radius: 3px;
+			transform-origin: 4px 0px;
+		}
+
+		.bar1{
+			width: 35px;
+			height: 4px;
+			border-radius: 3px;
+			background: rgba(255,255,255,0.7);
+			transform: rotate(45deg) translate(0px, 0px);
+		}
+		.bar2{
+			width: 35px;
+			height: 4px;
+			border-radius: 3px;
+			background: rgba(255,255,255,0.7);
+			transform: rotate(135deg) translate(9px, 9px);
+		}
+
+		.bar3{
+			position: absolute;
+			top: 42%;
+			left: -65px;
+			width: 200px;
+			height: 4px;
+			border-radius: 3px;
+			background: rgba(255,255,255,0.7);
+		}
+
+		.cont:nth-child(2){
+			margin-top: 50px;
+			position: relative;
+			left: 10%;
+			overflow: hidden;
+			font-family: 'Century Gothic',sans-serif;
+			width: 80%;
+			height: 1400px;
+						
+		}
+
+		.about-box{
+			height: 100%;
+			display: flex;
+			flex-direction: column;
+		}
+
+ 		.about{
+ 			flex:2;
+ 			height: 100%;
+ 			width: 100%;
+ 			color: white;
+ 		}
+
+ 		ul{
+ 			text-align: center;
+ 			text-decoration: none;
+ 		}
+
+ 		.about-content{
+ 			font-size: 1.6em;
+ 		}
+
+ 		.about .about-heads{
+ 			font-size: 2.2em;
+ 		}
+
+ 		.contact{
+ 			color: white;
+ 			flex: 1;
+ 		}
+
+ 		.contact-content{
+ 			font-size: 1.1em;
+ 		}
+
+ 		.contact .about-heads{
+ 			font-size: 3em;
+ 		}
+
+ 		.lol{
+ 			font-size: 1.4em;
+ 		}
+
+		.about span{
+			font-size: 0.8em;
+		}	
+
+		.cont:nth-child(3){
+			height: 300px;
+		}
+
+		.map{
+			margin-top: 50px;
+		}
+
+@media screen and (max-width: 823px){
+	
+}
