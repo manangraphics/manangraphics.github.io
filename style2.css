@@ -25,7 +25,6 @@
 		}
 
 		.cont:nth-child(1){
-			height: 430px;
 			display: flex;
 			flex-direction: column;
 			
@@ -45,7 +44,7 @@
 			margin-top:10px;
 		}
 
-		.spans{
+		/*.spans{
 			width: 50%;
 			height: 100px;
 			position: absolute;
@@ -81,7 +80,7 @@
 			border-radius: 3px;
 			background: rgba(255,255,255,0.7);
 		}
-
+*/
 		.cont:nth-child(2){
 			margin-top: 50px;
 			position: relative;
@@ -89,7 +88,7 @@
 			overflow: hidden;
 			font-family: 'Century Gothic',sans-serif;
 			width: 80%;
-			height: 1400px;
+			height: 90%;
 						
 		}
 
@@ -100,6 +99,7 @@
 		}
 
  		.about{
+ 			margin-top: 100px;
  			flex:2;
  			height: 100%;
  			width: 100%;
@@ -122,6 +122,7 @@
  		.contact{
  			color: white;
  			flex: 1;
+ 			margin-top: 100px;
  		}
 
  		.contact-content{
@@ -141,7 +142,7 @@
 		}	
 
 		.cont:nth-child(3){
-			height: 300px;
+			height: 100px;
 		}
 
 		.map{
@@ -149,5 +150,5 @@
 		}
 
 @media screen and (max-width: 823px){
-	
+
 }

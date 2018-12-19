@@ -689,6 +689,10 @@ body{
 		height: 400px;
 	}
 
+	.cont:nth-child(6) .items{
+		width: 100%;
+	}
+
 	.cont:nth-child(6) .desc{
 		flex: 1;
 		margin-left: 20px;
@@ -708,6 +712,20 @@ body{
 		flex: 0;
 	}
 
+	.cont:nth-child(8){
+		height: 650px;
+		margin-bottom: 50px;
+	}
+
+	.cont:nth-child(8) .items{
+		height: 500px;
+		background-size: contain;
+	}
+
+	.cont:nth-child(8) .desc{
+		flex: 0;
+	}
+
 	.heading{
 		margin-bottom: 10px;
 		font-size: 1.5em;
@@ -719,6 +737,7 @@ body{
 
 	.cont{
 		height: 400px;
+		margin-top: 50px;
 	}
 
 	.cont .grid{
